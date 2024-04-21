@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	
+	
+	background-image: url(./desktop-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+.id
+{
+	
+	text-align: center;
+}
+#Id{
+	background-color:red;
+	font-size: 30px;
+}
+#Idd
+{
+	background-color: rgb(152, 152, 231);
+	font-size: 20px;
+	color:black;
+	
+}
+#aa{
+	
+	background-color: rgb(152, 152, 231);
+	font-size: 25px;
+	
+}

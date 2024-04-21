@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	
+	
+	background-image: url(./desktop-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+.insert {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 30%;
+	padding: 10px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	background-color: blueviolet;
+	background-color: rgba(138, 43, 226, 0.3);
+}
+
+.insert input {
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}.insert label{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #fff;
+}.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:20px;
+}.button{
+	margin-top: 20px;
+	font-weight: bold;
+	height: 45px !important;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}.btn-1{
+	background-color: aqua;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	transform: 1s;
+	
+}.btn-1:hover{
+	font-size: 21px;
+	background-color: rgb(23, 161, 161);
+}
